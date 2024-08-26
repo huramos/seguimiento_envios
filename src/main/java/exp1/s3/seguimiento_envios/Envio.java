@@ -1,8 +1,5 @@
 package exp1.s3.seguimiento_envios;
 
-import java.util.List;
-import java.util.Map;
-
 public class Envio {
 
     private int idEnvio;
@@ -15,7 +12,7 @@ public class Envio {
     public Envio(int idEnvio, String destinatarioEnvio, String fechaEnvio, String direccionEnvio,
             String estadoEnvio, String ubicacionEnvio) {
         this.idEnvio = idEnvio;
-        DestinatarioEnvio = destinatarioEnvio;
+        this.DestinatarioEnvio = destinatarioEnvio;
         this.fechaEnvio = fechaEnvio;
         this.direccionEnvio = direccionEnvio;
         this.estadoEnvio = estadoEnvio;
