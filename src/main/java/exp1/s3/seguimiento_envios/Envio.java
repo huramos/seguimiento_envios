@@ -7,12 +7,9 @@ public class Envio {
 
     private int idEnvio;
     private String DestinatarioEnvio;
-    private String fechaEnvio; /*
-                                * si es nuevo debe tener una fecha futura, si es finalizado debe ser fecha
-                                * anterior y si es en camino fecha de hoy
-                                */
-    private String direccionEnvio; /* direcion envio */
-    private String estadoEnvio; /* nuevo-- en camino --finalizado */
+    private String fechaEnvio;
+    private String direccionEnvio;
+    private String estadoEnvio;
     private String ubicacionEnvio;
 
     public Envio(int idEnvio, String destinatarioEnvio, String fechaEnvio, String direccionEnvio,
